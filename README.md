@@ -32,14 +32,14 @@ Second option is to include libraries into your html head:
 
 ## Installation
 
-Add package to your project `npm i -S ng2-select2` (this will save package to your `dependencies` in `package.json`)
+Add package to your project `npm i -S bw-ng2-select2` (this will save package to your `dependencies` in `package.json`)
 
 
 ## Basic implementation
 
 1) Add declaration to [NgModule](https://github.com/NejcZdovc/ng2-select2-demo/blob/master/src/app/app.module.ts#L35)
 ```
-import { Select2Module } from 'ng2-select2';
+import { Select2Module } from 'bw-ng2-select2';
 
 @NgModule({
   imports: [
